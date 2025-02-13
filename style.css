@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+body {
+    background-color: #fde2f9;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    scroll-behavior: smooth;
+
+}
+
+nav {
+    background-color: black;
+    width: 100%;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+h1 {
+    font-size: 3rem; 
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 1rem;  
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.titulo {
+    background-image: url(img/image3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton {
+    display: block;
+    text-decoration: none;
+    color: black;
+    background-color: pink;
+    text-align: center;
+    padding: 12px 20px;
+    margin: 20px auto;
+    width: 95%;
+    max-width: 300px;
+    border-radius: 5px;
+    font-size: 1rem;
+    scroll-behavior: smooth;
+    border: rgb(202, 152, 161) solid
+
+}
+
+.subtitulo {
+    background-color: bisque;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+h4 {
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    border: rgb(199, 184, 161) solid;
+}
+
+img {
+    width: 35%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: pink;
+    border: rgb(202, 152, 161) solid;
+    padding: 10px;
+}
+
+.dos {
+    padding-top: 1000px;
+    margin-top: 800px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    border: rgb(199, 184, 161) solid;
+}
+.tres {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    border: rgb(199, 184, 161) solid;
+}
+.cuatro {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    border: rgb(199, 184, 161) solid;
+}
+.cinco {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    border: rgb(199, 184, 161) solid;
+}
+.seis {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    border: rgb(199, 184, 161) solid;
+}
+.siete {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    border: rgb(199, 184, 161) solid;
+}
+/* Media Query para mejorar la experiencia en iPhone 14 */
+@media (max-width: 400px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .titulo {
+        height: 180px;
+    }
+
+    .boton {
+        width: 90%;
+    }
+}
